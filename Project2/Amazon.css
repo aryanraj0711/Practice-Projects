@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    /* the given height & width are consider inside the box */
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    /* it arrange all Div given function in a single line */
+    align-items: center;
+    /* it set everything in center */
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    /*it gives amazon logo 50px height and 100px of width*/
+    width: 100px;
+}
+
+.logo {
+    background-image: url(stuffs/amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    /* due to it amazon logo overlap the #0F1111 background-color */
+}
+
+.border {
+    border: 2px solid transparent;
+    /*transparent means it doesn't have it's own border color , it uses to background as border color */
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+
+/* box2 */
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    /* 1 rem is used here so the font size vary display to displey */
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Box 3 */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    /* it gives same amount of space to All , search amazon and magnifing glass */
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    /*it removes border space from placeholder Search Amazon */
+}
+
+.search-input {
+    width: 100%;
+    /* it just take all space of all and magnifying glass .. from justify-content : space-evenlu; */
+    font-size: 1rem;
+    border: none;
+}
+
+
+/* Magnifing Glass */
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    /* it moves magnifing glass to horizontally centre*/
+    align-items: center;
+    /* it moves glass to vertically center */
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+
+
+/* Box 4 */
