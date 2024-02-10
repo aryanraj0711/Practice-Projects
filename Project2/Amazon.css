@@ -7,7 +7,7 @@
 
 ::selection {
     color: red;
-    background: teal;
+    background: lightblue;
 }
 
 .navbar {
@@ -207,6 +207,12 @@ span {
     background-color: #e2e7e6;
 }
 
+#high {
+    font-size: 21px;
+    color: #0F1111;
+    font-weight: 700;
+}
+
 .box {
     height: 400px;
     margin-top: 15px;
@@ -222,6 +228,28 @@ span {
     /* it fits the image inside the health & personal care container */
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+
+/* Four Items in a Single box */
+
+.fir {
+    /* border: 1px solid red;*/
+    width: 115px;
+    height: 125px;
+    margin: 8px 5px;
+}
+
+.seco {
+    /* border: 1px solid black;*/
+    width: 115px;
+    height: 125px;
+    margin: 8px 5px;
+}
+
+.hel {
+    display: flex;
+    justify-content: end;
 }
 
 .box-content {
@@ -297,14 +325,14 @@ ul a {
     background-color: #222f3d;
     color: #dddddd;
     align-items: center;
-    height: 80px;
-    border-top: 0.1px solid white;
+    height: 60px;
+    /* border-top: 0.1px solid white;*/
 }
 
 .pages {
     font-size: 0.7rem;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 8px;
 }
 
 .copyright {
